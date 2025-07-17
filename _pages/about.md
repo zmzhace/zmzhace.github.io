@@ -1,5 +1,5 @@
 ---
-title: About"
+title: "About"
 permalink: /about/
 author_profile: true
 ---
@@ -26,24 +26,30 @@ I have extensive hands-on experience in model fine-tuning, including:
 ## Professional Experience
 
 ### Current Work
-- **Alibaba Inc.** (Feb2025- Apr2025Optimizing prompts for text-to-video generation using SFT and DPO techniques
-- **Fescoadecco** (Aug2024- Dec2025: Optimizing Flash Attention operator for improved inference speed
+- **Alibaba Inc.** (Feb 2025 - Apr 2025): Optimizing prompts for text-to-video generation using SFT and DPO techniques
+- **Fescoadecco** (Aug 2024 - Dec 2025): Optimizing Flash Attention operator for improved inference speed
 
 ### Previous Experience
-- **Tencent Wesure** (Jan2024r 2024): Developed embedding training for RAG systems, achieved 96% Top-3all rate
-- **Shanghai NIO Automobile Co., Ltd** (Aug2023- Nov 2023): Built comprehensive voice service pipeline using Whisper and Llama2
+- **Tencent Wesure** (Jan 2024 - Apr 2024): Developed embedding training for RAG systems, achieved 96% Top-3 recall rate
+- **Shanghai NIO Automobile Co., Ltd** (Aug 2023 - Nov 2023): Built comprehensive voice service pipeline using Whisper and Llama2
 
 ## Education
 
-**Shantou University** (Oct 2020n 224- Bachelor of Data Science and Big Data Technology
-- GPA:3.265.0(Average Score:82.600 Key Courses: Data Visualization, Programming Fundamentals, Computer Science, Probability and Statistics, Object-Oriented Programming, Data Structures and Algorithms
+**Shantou University** (Oct 2020 - Jun 2024)  
+Bachelor of Data Science and Big Data Technology
+- GPA: 3.26/5.0 (Average Score: 82.6/100.0)
+- Key Courses: Data Visualization, Programming Fundamentals, Computer Science, Probability and Statistics, Object-Oriented Programming, Data Structures and Algorithms
 
 ## Competitive Programming
 
 I am passionate about competitive programming and have achieved several awards:
-- **The Third Prize** in Group Programming Ladder Tournament National Team (223 **The First Prize** in the 13qiao Cup" National Software Competition, Guangdong Division (2023)
-- **Bronze Medal** in2023egiate Programming Contest – Guangdong Provincial Contest (223*Honorable Mention** in the2022sia Hefei Regional Contest (2022)
-- **Bronze Medal** in China Collegiate Algorithm Design & Programming Challenge Contest (2022s
+- **The Third Prize** in Group Programming Ladder Tournament National Team (2023)
+- **The First Prize** in the 13th "Lanqiao Cup" National Software Competition, Guangdong Division (2023)
+- **Bronze Medal** in 2023 Collegiate Programming Contest – Guangdong Provincial Contest (2023)
+- **Honorable Mention** in the 2022 ICPC Asia Hefei Regional Contest (2022)
+- **Bronze Medal** in China Collegiate Algorithm Design & Programming Challenge Contest (2022)
+
+## Skills
 
 ### Programming Languages
 - Python, C++, Java, JavaScript
@@ -54,14 +60,15 @@ I am passionate about competitive programming and have achieved several awards:
 - Retrieval-Augmented Generation (RAG), Multimodal AI
 
 ### Tools & Frameworks
-- PyTorch, Transformers, Whisper, Llama2 Flash Attention
+- PyTorch, Transformers, Whisper, Llama2, Flash Attention
 
 ## Contact
 
-- **Email**: zmzhace@gmail.com
+- **Email**: [zmzhace@gmail.com](mailto:zmzhace@gmail.com)
 - **GitHub**: [zmzhace](https://github.com/zmzhace)
-- **Luogu**: [725543(https://www.luogu.com.cn/user/725543
-- **Codeforces**: [Ace2024https://codeforces.com/profile/Ace2024
+- **Luogu**: [725543](https://www.luogu.com.cn/user/725543)
+- **Codeforces**: [Ace2024](https://codeforces.com/profile/Ace2024)
+
 ---
 
 *I thrive on the process of identifying, researching, and solving complex problems, constantly following the latest technological advancements to flexibly apply large models to real-world challenges.*
