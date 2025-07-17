@@ -1,33 +1,240 @@
-# Site settings
-# These are used to personalize your new site. If you remove this file, Jekyll will stop working.
-# Learn more about Jekyll at https://jekyllrb.com/docs/configuration/
-permalink: /:title/
+# Site Settings
 title: "Zehao Mo's Personal Website"
-author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
-
-# The release of Jekyll4uge and has caused a lot of problems in the academicpages template.
-#
-# If you are using AcademicPages, please make sure you are using Jekyll30.9
-# You can do this by adding `gem jekyll', 30.9 to your Gemfile.
-# You can also change the `github-pages` gem to `jekyll-github-pages` and update its version to `v200`
-#
-# See https://github.com/academicpages/academicpages.github.io/issues/963 for more info.
-
-# Site settings
 locale: "en-US"
+title_separator: "-"
+subtitle: "Ph.D. Candidate in Computer Science"
+name: "Zehao Mo"
+description: "Personal website of Zehao Mo, Ph.D. candidate in Computer Science with expertise in Natural Language Understanding, Large Language Models, Generative AI, and Multimodality."
+url: "https://zmzhace.github.io"
+baseurl: ""
+repository: "zmzhace/zmzhace.github.io"
+teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 
-# Your contact information
-email: zmzhace@gmail.com
+# Site Author
+author:
+  name: "Zehao Mo"
+  avatar: "profile.png"
+  bio: "Ph.D. candidate in Computer Science with expertise in Natural Language Understanding, Large Language Models, Generative AI, and Multimodality."
+  location: "China"
+  employer: 
+  pubmed: 
+  googlescholar: 
+  email: "zmzhace@gmail.com"
+  researchgate: 
+  uri: 
+  bitbucket: 
+  codepen: 
+  dribbble: 
+  flickr: 
+  facebook: 
+  foursquare: 
+  github: "zmzhace"
+  google_plus: 
+  keybase: 
+  instagram: 
+  impactstory: 
+  lastfm: 
+  linkedin: 
+  orcid: 
+  pinterest: 
+  soundcloud: 
+  stackoverflow: 
+  steam: 
+  tumblr: 
+  twitter: 
+  vine: 
+  weibo: 
+  xing: 
+  youtube: 
 
-# Add these lines for your competitive programming profiles
-links:
-  - label: "Luogu Profile"
-    url: "https://www.luogu.com.cn/user/725543"
-  - label: "Codeforces Profile"
-    url: "https://codeforces.com/profile/Ace2024"
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# If you want to link a PDF version of your CV (this is optional, but good to have)
-# cv_pdf: assets/pdf/CV_Zehao_Mo.pdf
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Collections
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:name/
+  publications:
+    output: true
+    permalink: /:collection/:name/
+  portfolio:
+    output: true
+    permalink: /:collection/:name/
+  talks:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Outputting
+permalink: /:categories/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Competitive Programming Links
+competitive_programming:
+  luogu: "https://www.luogu.com.cn/user/725543"
+  codeforces: "https://codeforces.com/profile/Ace2024"
