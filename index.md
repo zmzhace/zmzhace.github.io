@@ -2,6 +2,7 @@
 title: "Zehao Mo - Computer Science Researcher"
 layout: single
 author_profile: true
+permalink: /
 ---
 
 # Welcome to My Personal Website
@@ -35,7 +36,7 @@ Currently working on:
 - [About Me](/about/)
 - [CV](/cv/)
 - [GitHub](https://github.com/zmzhace)
-- [Luogu Profile](https://www.luogu.com.cn/user/725543Codeforces Profile](https://codeforces.com/profile/Ace2024
+- [Luogu Profile](https://www.luogu.com.cn/user/725543Codeforces Profile](https://codeforces.com/profile/Ace2024)
 ---
 
 *I thrive on identifying, researching, and solving complex problems, constantly following the latest technological advancements to flexibly apply large models to real-world challenges.* 

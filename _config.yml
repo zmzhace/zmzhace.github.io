@@ -1,7 +1,7 @@
 # Site settings
 # These are used to personalize your new site. If you remove this file, Jekyll will stop working.
 # Learn more about Jekyll at https://jekyllrb.com/docs/configuration/
-permalink: /
+permalink: /:title/
 title: "Zehao Mo's Personal Website"
 author_profile: true
 redirect_from:
