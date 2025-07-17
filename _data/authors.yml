@@ -1,11 +1,10 @@
 # Authors
 
 Zehao Mo:
-  name        : "Zehao Mo"
-  uri         : "https://zmzhace.github.io"
-  email       : zmzhace@gmail.com"
-  bio         : "Ph.D. candidate in Computer Science with expertise in Natural Language Understanding, Large Language Models, Generative AI, and Multimodality. Passionate about model fine-tuning and solving complex AI challenges."
-  avatar      :bio-photo.jpg"
-  twitter     :  google_plus : 
-  github      : zmzhace"
-  linkedin    :  scholar     : ""
+  name:Zehao Mo  uri: "https://zmzhace.github.io"
+  email: zmzhace@gmail.com"
+  bio: "Ph.D. candidate in Computer Science with expertise in Natural Language Understanding, Large Language Models, Generative AI, and Multimodality. Passionate about model fine-tuning and solving complex AI challenges."
+  avatar:bio-photo.jpg"
+  github: "zmzhace"
+  twitter:  google_plus: 
+  linkedin: 
