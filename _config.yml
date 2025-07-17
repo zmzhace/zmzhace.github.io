@@ -15,7 +15,7 @@ masthead_title: # overrides the website title displayed in the masthead, use " "
 # Site Author
 author:
   name: "Zehao Mo"
-  avatar: "profile.png"
+  avatar: "anime-avatar.svg"
   bio: "Ph.D. candidate in Computer Science with expertise in Natural Language Understanding, Large Language Models, Generative AI, and Multimodality."
   location: "China"
   employer: 
