@@ -1,152 +1,185 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Zehao Mo",
+    "email": "zmzhace@gmail.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://zmzhace.github.io",
+    "summary": "Highly motivated and disciplined Ph.D. candidate in Computer Science with expertise in Natural Language Understanding (NLU), Large Language Models (LLMs), Generative AI, and Multimodality. Extensive experience in model fine-tuning including Supervised Fine-Tuning (SFT) and Direct Preference Optimization (DPO). Passionate about identifying, researching, and solving complex problems in AI.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "China",
+      "countryCode": "CN",
       "region": ""
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "zmzhace",
+        "url": "https://github.com/zmzhace"
+      },
+      {
+        "network": "Luogu",
+        "username": "725543",
+        "url": "https://www.luogu.com.cn/user/725543"
+      },
+      {
+        "network": "Codeforces",
+        "username": "Ace224",
+        "url": "https://codeforces.com/profile/Ace2024"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Alibaba Inc.",
+      "position": "I Engineer",
+      "website": "",
+      "startDate": "2025-02",
+      "endDate": "2025-04",
+      "summary": "Primary role focuses on optimizing prompts for text-to-video generation. Applied Supervised Fine-Tuning and Direct Preference Optimization to improve generation quality and address specific bad cases in video output.",
+      "highlights": [
+        "Optimized prompts for text-to-video generation systems",
+        "Applied SFT to achieve high-quality prompt refinement",
+        "Used DPO to address specific bad cases in generated video output"
+      ]
+    },
+    {
+      "company": "escoadecco",
+      "position": "I Engineer",
+      "website": "",
+      "startDate": "2024-08",
+      "endDate": "2025-12",
+      "summary": "Primary focus on optimizing the underlying Flash Attention operator from a foundational level, directly enhancing its core mechanics to improve inference speed and critical performance metrics.",
+      "highlights": [
+        "Optimized Flash Attention operator at foundational level",
+        "Enhanced core mechanics for improved performance",
+        "Increased inference speed and critical performance metrics"
+      ]
+    },
+    {
+      "company": "Tencent Wesure",
+      "position": "Algorithm Intern",
+      "website": "",
+      "startDate": "2024-01",
+      "endDate": "2024-04",
+      "summary": "Focused on embedding training for Retrieval-Augmented Generation (RAG) systems and utilization of agentic proxies. Conducted SFT on insurance datasets followed by DPO optimization.",
+      "highlights": [
+        "Developed embedding training for RAG systems",
+        "Conducted SFT on insurance datasets",
+        "Applied DPO to achieve 96% Top-3rate for retrieval system"
+      ]
+    },
+    {
+      "company": "Shanghai NIO Automobile Co., Ltd, Beijing Subsidiary",
+      "position": "Intern, Prospective Intelligence Department",
+      "website": "",
+      "startDate": "2023-08",
+      "endDate": "2023-11",
+      "summary": "Developed and optimized algorithms for AI systems. Created a comprehensive pipeline voice service based on Whisper and Llama2 providing complete conversational experience.",
+      "highlights": [
+        "Developed pipeline voice service using Whisper and Llama2",
+        "Created comprehensive conversational AI system",
+        "Optimized algorithms for AI systems"
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "institution": "Shantou University",
+      "area": "Bachelor of Data Science and Big Data Technology",
+      "studyType": "Bachelor",
+      "startDate": "2020-09",
+      "endDate": "2024-06",
+      "gpa": 3.260,
+      "courses": [
+        "Data Visualization",
+        "Fundamentals of Programming",
+        "Introduction to Computer Science",
+        "Probability and Mathematical Statistics",
+        "Object-Oriented Programming",
+        "Computer Hardware Foundation",
+        "Big Data Analytics and Its Applications",
+        "Cloud Computing and Data Center",
+        "Data Structure and Algorithm"
+      ]
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "Professional",
+      "keywords": ["Python", "C++", "Java", "JavaScript"]
+    },
+    {
+      "name": "AI/ML Technologies",
+      "level": "Professional",
+      "keywords": ["Large Language Models", "Natural Language Processing", "Supervised Fine-Tuning", "Direct Preference Optimization", "Retrieval-Augmented Generation", "Multimodal AI"]
+    },
+    {
+      "name": "Tools & Frameworks",
+      "level": "Professional",
+      "keywords": ["PyTorch,Transformers", "Whisper", "Llama2", "Flash Attention"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional"
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Native"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Natural Language Understanding",
+      "keywords": ["NLU", "Language Models", "Text Processing"]
+    },
+    {
+      "name": "Generative AI",
+      "keywords": ["LLMs", "Model Fine-tuning", "SFT", "DPO"]
+    },
+    {
+      "name": "Generative AI",
+      "keywords": ["Text Generation", "Video Generation", "Multimodality"]
+    },
+    {
+      "name": "Competitive Programming",
+      "keywords": ["Algorithm Design", "Problem Solving", "Data Structures"]
+    }
+  ],
   "references": [],
-  "publications": [
+  "publications": [],
+  "presentations": [],
+  "teaching": [],
+  "portfolio": [],
+  "awards": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "title": "The Third Prize in Group Programming Ladder Tournament National Team",
+      "date": "2023-05",
+      "awarder": "National Programming Competition"
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "title": "The First Prize in the 13th Lanqiao Cup National Software and Information Technology Professional Talent Competition, Guangdong Division, Group B",
+      "date": "2023-05",
+      "awarder": "Lanqiao Cup Competition"
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "title": "Bronze Medal in 2023egiate Programming Contest – Guangdong Provincial Collegiate Programming Contest",
+      "date": "2023-05",
+      "awarder": "Computer Academy of Guangdong"
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
-    }
-  ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "title": "Honorable Mention in the 2022sia Hefei Regional Contest",
+      "date": "2022-11",
+      "awarder": "University of Science and Technology of China, International Collegiate Programming Contest"
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "title": "Bronze Medal in China Collegiate Algorithm Design & Programming Challenge Contest",
+      "date": "2022-10",
+      "awarder": "China Collegiate Programming Contest"
     }
   ]
 }

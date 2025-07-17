@@ -2,35 +2,32 @@
 # These are used to personalize your new site. If you remove this file, Jekyll will stop working.
 # Learn more about Jekyll at https://jekyllrb.com/docs/configuration/
 permalink: /
-title: "Zehao Mo's Personal Website" # 修改网站标题
+title: "Zehao Mo's Personal Website"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 
-# The release of Jekyll 4 is huge and has caused a lot of problems in the academicpages template.
+# The release of Jekyll4uge and has caused a lot of problems in the academicpages template.
 #
-# If you are using AcademicPages, please make sure you are using Jekyll 3.9.0.
-# You can do this by adding `gem 'jekyll', '3.9.0'` to your Gemfile.
+# If you are using AcademicPages, please make sure you are using Jekyll 30.9
+# You can do this by adding `gem jekyll', '30.9` to your Gemfile.
 # You can also change the `github-pages` gem to `jekyll-github-pages` and update its version to `v200`
 #
 # See https://github.com/academicpages/academicpages.github.io/issues/963 for more info.
 
 # Site settings
 locale: "en-US"
-# other settings...
 
 # Your contact information
-[cite_start]email: zmzhace@gmail.com # 您的邮箱 [cite: 1]
+email: zmzhace@gmail.com
+
 # Add these lines for your competitive programming profiles
 links:
   - label: "Luogu Profile"
-    url: "https://www.luogu.com.cn/user/725543"
-  - label: "Codeforces Profile"
-    url: "https://codeforces.com/profile/Ace2024"
+    url: https://www.luogu.com.cn/user/725543
+  -label: "Codeforces Profile"
+    url: "https://codeforces.com/profile/Ace2024
 
 # If you want to link a PDF version of your CV (this is optional, but good to have)
-# cv_pdf: "assets/pdf/CV_Zehao_Mo.pdf" # 如果您有PDF版本简历，请上传到 assets/pdf/ 目录下并填写文件名
-# You would need to create this directory and upload your CV there.
-
-# other settings...
+# cv_pdf:assets/pdf/CV_Zehao_Mo.pdf"
