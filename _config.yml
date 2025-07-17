@@ -15,39 +15,39 @@ masthead_title: # overrides the website title displayed in the masthead, use " "
 # Site Author
 author:
   name: "Zehao Mo"
-  avatar: "profile.png"
+  avatar: "avatar.png"
   bio: "Ph.D. candidate in Computer Science with expertise in Natural Language Understanding, Large Language Models, Generative AI, and Multimodality."
   location: "China"
-  employer: 
-  pubmed: 
-  googlescholar: 
+  employer: ""
+  pubmed: ""
+  googlescholar: ""
   email: "zmzhace@gmail.com"
-  researchgate: 
-  uri: 
-  bitbucket: 
-  codepen: 
-  dribbble: 
-  flickr: 
-  facebook: 
-  foursquare: 
+  researchgate: ""
+  uri: ""
+  bitbucket: ""
+  codepen: ""
+  dribbble: ""
+  flickr: ""
+  facebook: ""
+  foursquare: ""
   github: "zmzhace"
-  google_plus: 
-  keybase: 
-  instagram: 
-  impactstory: 
-  lastfm: 
-  linkedin: 
-  orcid: 
-  pinterest: 
-  soundcloud: 
-  stackoverflow: 
-  steam: 
-  tumblr: 
-  twitter: 
-  vine: 
-  weibo: 
-  xing: 
-  youtube: 
+  google_plus: ""
+  keybase: ""
+  instagram: ""
+  impactstory: ""
+  lastfm: ""
+  linkedin: ""
+  orcid: ""
+  pinterest: ""
+  soundcloud: ""
+  stackoverflow: ""
+  steam: ""
+  tumblr: ""
+  twitter: ""
+  vine: ""
+  weibo: ""
+  xing: ""
+  youtube: ""
 
 # Reading Files
 include:
