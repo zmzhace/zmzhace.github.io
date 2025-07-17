@@ -10,8 +10,8 @@ redirect_from:
 
 # The release of Jekyll4uge and has caused a lot of problems in the academicpages template.
 #
-# If you are using AcademicPages, please make sure you are using Jekyll 30.9
-# You can do this by adding `gem jekyll', '30.9` to your Gemfile.
+# If you are using AcademicPages, please make sure you are using Jekyll30.9
+# You can do this by adding `gem jekyll', 30.9 to your Gemfile.
 # You can also change the `github-pages` gem to `jekyll-github-pages` and update its version to `v200`
 #
 # See https://github.com/academicpages/academicpages.github.io/issues/963 for more info.
@@ -25,9 +25,9 @@ email: zmzhace@gmail.com
 # Add these lines for your competitive programming profiles
 links:
   - label: "Luogu Profile"
-    url: https://www.luogu.com.cn/user/725543
-  -label: "Codeforces Profile"
-    url: "https://codeforces.com/profile/Ace2024
+    url: "https://www.luogu.com.cn/user/725543"
+  - label: "Codeforces Profile"
+    url: "https://codeforces.com/profile/Ace2024"
 
 # If you want to link a PDF version of your CV (this is optional, but good to have)
-# cv_pdf:assets/pdf/CV_Zehao_Mo.pdf"
+# cv_pdf: assets/pdf/CV_Zehao_Mo.pdf
