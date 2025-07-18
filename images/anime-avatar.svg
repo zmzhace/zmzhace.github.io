@@ -1,1 +1,96 @@
- 
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="face" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0%" stop-color="#FFEBE0"/>
+      <stop offset="100%" stop-color="#FFD4B8"/>
+    </radialGradient>
+    <linearGradient id="hair" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB6E1"/>
+      <stop offset="50%" stop-color="#FF91D4"/>
+      <stop offset="100%" stop-color="#FF69B4"/>
+    </linearGradient>
+    <radialGradient id="eyes" cx="0.3" cy="0.3" r="0.7">
+      <stop offset="0%" stop-color="#FFB6C1"/>
+      <stop offset="70%" stop-color="#FF69B4"/>
+      <stop offset="100%" stop-color="#DC143C"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <circle cx="200" cy="200" r="200" fill="#FFF5F8"/>
+  
+  <!-- 头发背层 -->
+  <path d="M 80 140 Q 100 40 200 30 Q 300 40 320 140 Q 340 170 330 220 Q 310 270 280 300 Q 240 320 200 325 Q 160 320 120 300 Q 90 270 70 220 Q 60 170 80 140" fill="url(#hair)"/>
+  
+  <!-- 脸 -->
+  <ellipse cx="200" cy="230" rx="90" ry="105" fill="url(#face)"/>
+  
+  <!-- 刘海 -->
+  <path d="M 110 160 Q 130 100 160 90 Q 190 85 200 88 Q 210 85 240 90 Q 270 100 290 160 Q 280 140 250 135 Q 225 130 200 133 Q 175 130 150 135 Q 120 140 110 160" fill="url(#hair)"/>
+  
+  <!-- 侧面头发 -->
+  <path d="M 110 160 Q 95 180 90 210 Q 88 240 95 270 Q 105 300 125 320" stroke="url(#hair)" stroke-width="25" fill="none" stroke-linecap="round"/>
+  <path d="M 290 160 Q 305 180 310 210 Q 312 240 305 270 Q 295 300 275 320" stroke="url(#hair)" stroke-width="25" fill="none" stroke-linecap="round"/>
+  
+  <!-- 双马尾 -->
+  <ellipse cx="130" cy="180" rx="20" ry="40" fill="url(#hair)" transform="rotate(-30 130 180)"/>
+  <ellipse cx="270" cy="180" rx="20" ry="40" fill="url(#hair)" transform="rotate(30 270 180)"/>
+  
+  <!-- 头发装饰蝴蝶结 -->
+  <ellipse cx="150" cy="120" rx="15" ry="8" fill="#FF1493"/>
+  <ellipse cx="250" cy="120" rx="15" ry="8" fill="#FF1493"/>
+  <circle cx="150" cy="120" r="4" fill="#FFD700"/>
+  <circle cx="250" cy="120" r="4" fill="#FFD700"/>
+  
+  <!-- 大眼睛 -->
+  <ellipse cx="170" cy="200" rx="25" ry="35" fill="white"/>
+  <ellipse cx="230" cy="200" rx="25" ry="35" fill="white"/>
+  
+  <!-- 虹膜 -->
+  <circle cx="170" cy="205" r="18" fill="url(#eyes)"/>
+  <circle cx="230" cy="205" r="18" fill="url(#eyes)"/>
+  
+  <!-- 瞳孔 -->
+  <circle cx="170" cy="208" r="6" fill="#000"/>
+  <circle cx="230" cy="208" r="6" fill="#000"/>
+  
+  <!-- 眼睛高光 -->
+  <circle cx="173" cy="195" r="5" fill="white" opacity="0.9"/>
+  <circle cx="233" cy="195" r="5" fill="white" opacity="0.9"/>
+  <circle cx="167" cy="210" r="2" fill="white"/>
+  <circle cx="227" cy="210" r="2" fill="white"/>
+  
+  <!-- 眼睫毛 -->
+  <path d="M 150 180 Q 155 175 160 180" stroke="#FF69B4" stroke-width="3" fill="none"/>
+  <path d="M 170 175 Q 170 170 170 175" stroke="#FF69B4" stroke-width="3" fill="none"/>
+  <path d="M 190 180 Q 185 175 180 180" stroke="#FF69B4" stroke-width="3" fill="none"/>
+  
+  <path d="M 210 180 Q 215 175 220 180" stroke="#FF69B4" stroke-width="3" fill="none"/>
+  <path d="M 230 175 Q 230 170 230 175" stroke="#FF69B4" stroke-width="3" fill="none"/>
+  <path d="M 250 180 Q 245 175 240 180" stroke="#FF69B4" stroke-width="3" fill="none"/>
+  
+  <!-- 眉毛 -->
+  <path d="M 155 175 Q 170 168 185 175" stroke="#FF69B4" stroke-width="4" fill="none"/>
+  <path d="M 215 175 Q 230 168 245 175" stroke="#FF69B4" stroke-width="4" fill="none"/>
+  
+  <!-- 小鼻子 -->
+  <ellipse cx="200" cy="225" rx="3" ry="5" fill="#FFB6C1"/>
+  
+  <!-- 可爱小嘴 -->
+  <path d="M 190 245 Q 200 252 210 245" stroke="#FF69B4" stroke-width="4" fill="none"/>
+  
+  <!-- 腮红 -->
+  <ellipse cx="135" cy="235" rx="18" ry="12" fill="#FFB6C1" opacity="0.8"/>
+  <ellipse cx="265" cy="235" rx="18" ry="12" fill="#FFB6C1" opacity="0.8"/>
+  
+  <!-- 可爱的小装饰 -->
+  <polygon points="320,60 325,70 335,70 327,77 330,87 320,80 310,87 313,77 305,70 315,70" fill="#FFD700" opacity="0.9"/>
+  <polygon points="80,90 83,97 90,97 85,102 87,109 80,105 73,109 75,102 70,97 77,97" fill="#FF69B4" opacity="0.8"/>
+  <polygon points="340,280 343,287 350,287 345,292 347,299 340,295 333,299 335,292 330,287 337,287" fill="#FFD700" opacity="0.7"/>
+  
+  <!-- 小星星装饰 -->
+  <circle cx="90" cy="150" r="3" fill="#FFD700" opacity="0.8"/>
+  <circle cx="310" cy="170" r="4" fill="#FF69B4" opacity="0.7"/>
+  <circle cx="70" cy="270" r="3" fill="#FFB6C1" opacity="0.8"/>
+  <circle cx="330" cy="250" r="3" fill="#FFD700" opacity="0.6"/>
+</svg> 

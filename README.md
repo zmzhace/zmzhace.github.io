@@ -44,8 +44,7 @@ I am passionate about competitive programming and have achieved several awards:
 This website is built using the Academic Pages template and includes:
 - Personal information and research interests
 - Professional experience and education
-- Publications and talks (to be added)
-- Portfolio and blog posts (to be added)
+- Blog posts and personal thoughts
 - Competitive programming achievements
 - Contact information and social links
 

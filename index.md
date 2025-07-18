@@ -42,6 +42,7 @@ I am passionate about competitive programming and have achieved:
 
 - **[About Me](/about/)** - Detailed background and experience
 - **[CV](/cv/)** - Complete curriculum vitae
+- **[Blog Posts](/year-archive/)** - My latest thoughts and experiences
 - **[GitHub](https://github.com/zmzhace)** - Code repositories and projects
 - **[Luogu Profile](https://www.luogu.com.cn/user/725543)** - Competitive programming on Luogu
 - **[Codeforces Profile](https://codeforces.com/profile/Ace2024)** - Competitive programming on Codeforces
