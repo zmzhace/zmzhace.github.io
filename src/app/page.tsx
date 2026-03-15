@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Mail, ChevronRight, Sprout, Sparkles, ArrowUpRight } from "lucide-react";
+import { Github, Mail, ChevronRight, Sparkles, ArrowUpRight } from "lucide-react";
 
 export default function Home() {
   return (
