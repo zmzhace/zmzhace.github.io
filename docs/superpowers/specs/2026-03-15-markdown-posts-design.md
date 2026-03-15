@@ -18,6 +18,7 @@ Enable a Markdown-based blog system where placing `.mdx` (or `.md`) files in `/p
 - Remote content sources (CMS, API, database).
 - Rich MDX components library beyond defaults.
 - Tag/category pages (can be added later).
+- Draft/private posts handling (not supported initially).
 
 ## Architecture
 
@@ -39,15 +40,19 @@ Enable a Markdown-based blog system where placing `.mdx` (or `.md`) files in `/p
 ### Data Flow
 1. Read files from `/posts` at build time **in server components only**.
 2. Use `gray-matter` to parse frontmatter.
-3. Render Markdown/MDX content with `next-mdx-remote/rsc`.
-4. Sort posts by `date` (desc) for the list page.
-5. Provide `generateStaticParams` for `[slug]` routes.
+3. Validate frontmatter:
+   - `title` and `description` are non-empty strings.
+   - `date` must be ISO-8601 (`YYYY-MM-DD`) to guarantee stable sorting.
+   - Slugs must be unique; duplicate slugs cause a build-time error.
+4. Render Markdown/MDX content with `next-mdx-remote/rsc`.
+5. Sort posts by `date` (desc) for the list page.
+6. Provide `generateStaticParams` for `[slug]` routes.
 
 ## Components / Files
-- `lib/posts.ts` — file discovery, frontmatter parsing, and content loading.
+- `lib/posts.ts` — file discovery, frontmatter parsing, validation, and content loading.
 - `app/posts/page.tsx` — list page.
 - `app/posts/[slug]/page.tsx` — detail page.
-- Optional: `components/MarkdownContent.tsx` — render MDX content.
+- Optional: `components/MarkdownContent.tsx` — render MDX content (no custom components initially; can be added later).
 
 ## Error Handling
 - Missing required frontmatter fields (`title`, `date`, `description`) throws a build-time error indicating the file.
