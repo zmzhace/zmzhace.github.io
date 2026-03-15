@@ -5,6 +5,8 @@ Date: 2026-03-15
 ## Overview
 Enable a Markdown-based blog system where placing `.mdx` (or `.md`) files in `/posts` automatically generates a `/posts` list page and `/posts/[slug]` detail pages. The system must work with the current Next.js App Router setup and `output: "export"` static export.
 
+**Rendering choice:** use `next-mdx-remote/rsc` (App Router compatible) so rendering happens in server components during build. Plain `.md` files will be treated the same way (compiled through the MDX pipeline, without custom components).
+
 ## Goals
 - Provide a simple authoring flow: drop Markdown files into `/posts`.
 - Parse frontmatter with **title, date, description**.
@@ -26,16 +28,20 @@ Enable a Markdown-based blog system where placing `.mdx` (or `.md`) files in `/p
   another-post.mdx
 ```
 
+### File Types
+- `.mdx` and `.md` are both accepted.
+- `.md` is compiled through the same MDX pipeline (no custom components), ensuring a single rendering path.
+
 ### Routing
 - `/posts` → list page
 - `/posts/[slug]` → detail page
 
 ### Data Flow
-1. Read files from `/posts` at build time.
+1. Read files from `/posts` at build time **in server components only**.
 2. Use `gray-matter` to parse frontmatter.
-3. Render Markdown/MDX content with `next-mdx-remote`.
+3. Render Markdown/MDX content with `next-mdx-remote/rsc`.
 4. Sort posts by `date` (desc) for the list page.
-5. Provide static params for `[slug]` routes.
+5. Provide `generateStaticParams` for `[slug]` routes.
 
 ## Components / Files
 - `lib/posts.ts` — file discovery, frontmatter parsing, and content loading.
