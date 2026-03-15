@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
 import MarkdownContent from "@/components/MarkdownContent";
 import { getAllPostSlugs, getPostBySlug } from "@/lib/posts";
 
