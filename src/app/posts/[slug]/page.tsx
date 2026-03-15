@@ -10,16 +10,11 @@ export function generateStaticParams() {
 }
 
 type PostPageProps = {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
 };
 
-export default async function PostPage({ params }: PostPageProps) {
-  const { slug } = await params;
-  const allSlugs = getAllPostSlugs();
-
-  if (!allSlugs.includes(slug)) {
-    notFound();
-  }
+export default function PostPage({ params }: PostPageProps) {
+  const { slug } = params;
 
   const { frontmatter, content } = getPostBySlug(slug);
 
