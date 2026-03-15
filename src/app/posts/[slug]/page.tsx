@@ -4,16 +4,21 @@ import { getAllPostSlugs, getPostBySlug } from "@/lib/posts";
 
 export const dynamicParams = false;
 
-export function generateStaticParams() {
+export function generateStaticParams(): Array<{ slug: string }> {
   return getAllPostSlugs().map((slug) => ({ slug }));
 }
 
 type PostPageProps = {
-  params: { slug: string };
+  params: { slug: string } | Promise<{ slug: string }>;
 };
 
-export default function PostPage({ params }: PostPageProps) {
-  const { slug } = params;
+export default async function PostPage({ params }: PostPageProps) {
+  const resolvedParams = await params;
+  const slug = resolvedParams?.slug;
+
+  if (!slug) {
+    throw new Error("Post slug is missing for this page.");
+  }
 
   const { frontmatter, content } = getPostBySlug(slug);
 
