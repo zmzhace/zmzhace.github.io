@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Mail, Construction, ChevronRight, Sprout, Sparkles } from "lucide-react";
+import { Github, Mail, ChevronRight, Sprout, Sparkles, ArrowUpRight } from "lucide-react";
 
 export default function Home() {
   return (
@@ -140,15 +140,19 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Blog Placeholder */}
+      {/* Latest Writings */}
       <section className="py-16 px-6 md:px-12 max-w-5xl mx-auto w-full border-t border-[var(--border)]">
-        <h2 className="text-2xl font-semibold mb-8">Latest Writings</h2>
-        <div className="flex flex-col items-center justify-center p-12 border border-dashed border-[var(--border)] rounded-2xl text-center">
-          <Construction size={32} className="text-[var(--muted-foreground)] mb-4" />
-          <h3 className="text-lg font-medium mb-2">Blog coming soon</h3>
-          <p className="text-[var(--muted-foreground)] max-w-md">
-            Articles on emergent AI simulation, multi-agent systems, and building SeedWorld.
-          </p>
+        <div className="flex items-center justify-between mb-8">
+          <h2 className="text-2xl font-semibold">Latest Writings</h2>
+          <Link
+            href="/posts"
+            className="text-sm flex items-center gap-1 text-[var(--muted-foreground)] hover:text-[var(--foreground)] transition-colors"
+          >
+            Explore all posts <ArrowUpRight size={16} />
+          </Link>
+        </div>
+        <div className="border border-[var(--border)] rounded-2xl p-8 text-[var(--muted-foreground)]">
+          Dive into notes on emergent AI simulation, multi-agent systems, and the journey of building SeedWorld.
         </div>
       </section>
     </div>
