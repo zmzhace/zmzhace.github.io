@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { Github, Mail, ChevronRight, Sparkles, ArrowUpRight } from "lucide-react";
+import { getAllPosts } from "@/lib/posts";
 
 export default function Home() {
+  const latestPosts = getAllPosts().slice(0, 3);
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
@@ -151,8 +153,30 @@ export default function Home() {
             Explore all posts <ArrowUpRight size={16} />
           </Link>
         </div>
-        <div className="border border-[var(--border)] rounded-2xl p-8 text-[var(--muted-foreground)]">
-          Dive into notes on emergent AI simulation, multi-agent systems, and the journey of building SeedWorld.
+        <div className="grid gap-4">
+          {latestPosts.length === 0 ? (
+            <div className="border border-[var(--border)] rounded-2xl p-8 text-[var(--muted-foreground)]">
+              Dive into notes on emergent AI simulation, multi-agent systems, and the journey of building SeedWorld.
+            </div>
+          ) : (
+            latestPosts.map((post) => (
+              <Link
+                key={post.slug}
+                href={`/posts/${post.slug}`}
+                className="group border border-[var(--border)] rounded-2xl p-6 hover:border-[var(--muted-foreground)] transition-colors"
+              >
+                <div className="flex items-center gap-3 text-sm text-[var(--muted-foreground)] mb-2">
+                  <span>{post.date}</span>
+                </div>
+                <h3 className="text-xl font-medium mb-2 group-hover:underline decoration-[var(--muted-foreground)] underline-offset-4">
+                  {post.title}
+                </h3>
+                <p className="text-[var(--muted-foreground)] leading-relaxed">
+                  {post.description}
+                </p>
+              </Link>
+            ))
+          )}
         </div>
       </section>
     </div>
