@@ -9,7 +9,7 @@ export function generateStaticParams(): Array<{ slug: string }> {
 }
 
 type PostPageProps = {
-  params: { slug: string } | Promise<{ slug: string }>;
+  params: Promise<{ slug: string }>;
 };
 
 export default async function PostPage({ params }: PostPageProps) {
