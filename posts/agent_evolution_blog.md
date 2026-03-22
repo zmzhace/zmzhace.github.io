@@ -1,3 +1,8 @@
+---
+title: "Agent 进化"
+date: "2025-03-22"
+description: "做了hardness的升级，更像claude code了"
+---
 # 🚀 从「对话框」到「纯血特工」：手撸工业级 AI 代码助手全指南
 
 在这个 AI 全民化的时代，满大街都是“调用 API 画个网页”的教程。但真正的**工业级 AI Coding Agent**（像 Claude Code 或 OpenCode 那样）和普通的“套壳对话框”之间，隔着一条名为「工程化」的鸿沟。
