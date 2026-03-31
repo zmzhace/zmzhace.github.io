@@ -1,6 +1,6 @@
 ---
 title: "Agent 进化"
-date: "2025-03-22"
+date: "2026-03-22"
 description: "做了hardness的升级，更像claude code了"
 ---
 # 🚀 从「对话框」到「纯血特工」：手撸工业级 AI 代码助手全指南
