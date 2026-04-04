@@ -84,8 +84,7 @@ IMPORTANT
 病例 D：监控梯度健康
 在训练循环中加入以下监控代码：
 
-python
-# 在每个 step 后打印梯度统计
+在每个 step 后打印梯度统计
 grad_norm = torch.nn.utils.clip_grad_norm_(model.parameters(), float('inf'))
 print(f"Step {step}: Loss={loss:.4f}, Grad_Norm={grad_norm:.4f}")
 WARNING
@@ -114,6 +113,7 @@ python trainer/train_full_sft.py \
   --data_path ../dataset/sft_t2t_mini.jsonl \
   --from_weight pretrain \
   --log_interval 50
+  
 4.3 对比实验
 用同一组测试问题，分别让预训练模型和SFT 模型回答
 观察: 预训练模型只会"续写"，SFT 模型会"回答"
@@ -193,6 +193,4 @@ IMPORTANT
 Open Questions
 IMPORTANT
 
-您是否希望我在每个实验结束后生成一份"实验报告"（Markdown），记录您的观察结果？
-对于实验 3（制造崩溃），您是否有其他想模拟的"病例"？
 ---
